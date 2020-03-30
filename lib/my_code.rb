@@ -1,3 +1,4 @@
+#study link:https://www.youtube.com/watch?v=ObR8UuaPc6Q
 #map returns a new array of manipulated elements
 def map(source_array)
 #Inside of this method,we want to pass each elements from array to
