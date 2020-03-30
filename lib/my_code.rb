@@ -6,7 +6,7 @@ def map(source_array)
 newAr=[]
 i=0
   while i<source_array.length do
-    newAr.push(yield(source_array[i]))
+    newAr<<yield(source_array[i])
     i+=1
   end
   newAr
