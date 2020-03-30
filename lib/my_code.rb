@@ -23,9 +23,9 @@ def reduce(source_array,starting_point=nil)#这样就能使它optional
     i=1#since we are dealing with 1st position array[0] already
   end
 
-  while i<source_array.length
-  sum=yield(sum,source_array[i])
-  i+= 1
-  end
-  sum
+    while i<source_array.length
+      sum=yield(sum,source_array[i])
+      i+= 1
+    end
+    sum
 end
